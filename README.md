@@ -1,3 +1,3 @@
 Recreating Snake.
 
-![Alt Text](https://imgur.com/a/rTeOKgZ.gif)
+![](https://i.imgur.com/e07i6zM.gif.gif)

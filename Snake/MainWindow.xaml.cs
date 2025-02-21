@@ -7,11 +7,17 @@ namespace Snake;
 
 public partial class MainWindow : Window
 {
+    private readonly int rows = 15, cols = 15;
+    private readonly Image[,] gridImages;
+    private GameState gameState;
+    private bool gameRunning;
+    
     private readonly Dictionary<GridValue, ImageSource> gridValToImage = new()
     {
         { GridValue.Empty, Images.Empty },
         { GridValue.Snake, Images.Body },
-        { GridValue.Food, Images.Food }
+        { GridValue.Food, Images.Food },
+        { GridValue.RareFood, Images.RareFood }
     };
 
     private readonly Dictionary<Direction, int> dirRotation = new()
@@ -21,10 +27,6 @@ public partial class MainWindow : Window
         { Direction.Left, 270 },
         { Direction.Right, 90 },
     };
-    private readonly int rows = 15, cols = 15;
-    private readonly Image[,] gridImages;
-    private GameState gameState;
-    private bool gameRunning;
     
     public MainWindow()
     {

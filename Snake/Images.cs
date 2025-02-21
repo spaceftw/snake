@@ -11,6 +11,7 @@ public static class Images // container for image assets
     public static readonly ImageSource Head = LoadImage("Head.png");
     public static readonly ImageSource DeadHead = LoadImage("DeadHead.png");
     public static readonly ImageSource Food = LoadImage("Food.png");
+    public static readonly ImageSource RareFood = LoadImage("RareFood.png");
     
     private static ImageSource LoadImage(string fileName)
     {

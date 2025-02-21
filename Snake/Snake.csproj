@@ -9,10 +9,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Assets" />
-    </ItemGroup>
-
-    <ItemGroup>
       <None Remove="Assets\Body.png" />
       <Resource Include="Assets\Body.png" />
       <None Remove="Assets\DeadBody.png" />
@@ -25,6 +21,8 @@
       <Resource Include="Assets\Empty.png" />
       <None Remove="Assets\Food.png" />
       <Resource Include="Assets\Food.png" />
+        <None Remove="Assets\RareFood.png" />
+        <Resource Include="Assets\RareFood.png" />
       <None Remove="Assets\Head.png" />
       <Resource Include="Assets\Head.png" />
       <None Remove="Assets\icon.ico" />
